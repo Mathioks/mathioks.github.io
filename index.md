@@ -11,3 +11,5 @@ I’m currently completing a master’s degree, advised by <a href="https://scho
 At the heart of my work are a few core values: open and empowering communication, transparency, and reliability. I enjoy collaborating across disciplines and helping teams solve complex problems, especially when it means leveraging data, AI, or machine learning in thoughtful, innovative ways.
 
 Whether I'm developing tools that improve workflows or analyzing systems for smarter decision-making, I bring an eye for detail and a drive to make things better.
+
+{% include_relative _includes/services.md %}
