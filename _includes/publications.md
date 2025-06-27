@@ -22,7 +22,15 @@
       </div>
     <div class="links">
       {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+        <div class="title">
+        {% if link.pdf %}
+        <a href="{{ link.pdf }}">{{ link.title }}</a>
+        {% elsif link.page %}
+        <a href="{{ link.page }}">{{ link.title }}</a>
+        {% else %}
+        {{ link.title }}
+      {% endif %}
+      </div>
       {% endif %}
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
