@@ -13,5 +13,3 @@ At the heart of my work are a few core values: open and empowering communication
 Whether I'm developing tools that improve workflows or analyzing systems for smarter decision-making, I bring an eye for detail and a drive to make things better.
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
