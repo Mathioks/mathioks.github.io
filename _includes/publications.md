@@ -18,9 +18,9 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title">
       {% if link.pdf %}
-      <a href="{{ link.pdf }}">{{ link.title }}</a>
+      <a href="{{ link.pdf }} target="_blank">{{ link.title }}</a>
       {% elsif link.page %}
-      <a href="{{ link.page }}">{{ link.title }}</a>
+      <a href="{{ link.page }} target="_blank">{{ link.title }}</a>
       {% else %}
       {{ link.title }}
       {% endif %}
