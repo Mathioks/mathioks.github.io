@@ -10,7 +10,7 @@ main:
     image: ./assets/img/teaser_1.png
     notes: Blogpost
 
-#  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+#  - title: Minecraft Mod
 #    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
 #    conference_short: CVPR
 #    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
